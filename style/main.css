@@ -22,9 +22,13 @@ body{
     margin: auto;
     height: 1px;
     border-top: 1px solid white;
-    margin: 10% 0;
-    opacity: 0.05;
+    margin: 5% 0;
+    opacity: 0;
 }
+.slider-container label img{
+    opacity: 0.9;
+}
+
 
 .inline-block{
     display: inline-block;
