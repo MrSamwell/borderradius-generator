@@ -79,8 +79,7 @@ img{
     background: #BDC3C7;
     outline: none;
     opacity: 1;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
+    
   }
   
   .slider::-webkit-slider-thumb {
