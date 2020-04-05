@@ -29,43 +29,15 @@ body{
     opacity: 0.9;
 }
 
-
-.inline-block{
-    display: inline-block;
-}
-
 .container-left{
-    margin-left: 5%;
-    width: 45%;
-    height: 100%;
-    background-color: none;
-    
+    margin: 10%;
 }
 .container-right{
-    margin-right: 5%;
-    width: 45%;
-    height: 100%;
-    background-color: none;
-    float: right;
-}
-.center{
-    width: 100%;
-    height: 100%;
-    display: flex;
-  justify-content: center;
-  align-items: center;
+    margin:10%;
 }
 
 
-.slider-container{
-    
-    width: 50%;
-    height: auto;
-    margin: 0 auto;
-    
-   
-    
-}
+
 .slider-container label{
     display: inline-block;
     width: 18%;
@@ -183,8 +155,9 @@ img{
 
 
   .rectangle{
-    height: 400px;
-    width: 400px;
+    
+    height: 200px;
+    width: 200px;
     background: linear-gradient(38deg, rgba(131,58,180,1) 10%, rgba(253,29,29,1) 56%, rgba(252,176,69,1) 100%);
     margin: auto;
     transition: 1s;
@@ -195,4 +168,62 @@ img{
 
 textarea{
     padding: 15px;
+}
+@media only screen and (min-width:700px){
+    .container-left{
+        margin: 10% 20% 0 20%;
+    }
+    .container-right{
+        margin: 5% 20%;
+    }
+    .rectangle{
+        height: 300px;
+        width: 300px;
+    }
+}
+@media only screen and (min-width:1000px){
+
+.rectangle{
+    width: 400px;
+    height: 400px;
+}
+.inline-block{
+    display: inline-block;
+}
+
+.container-left{
+    
+    width: 40%;
+    height: 100%;
+    background-color: none;
+    margin: 0 10% 0 0;
+    
+}
+.container-right{
+    margin: 0 0 0 10%;
+    
+    width: 40%;
+    height: 100%;
+    background-color: none;
+    
+}
+.center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.slider-container{
+    
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    
+   
+    
+}
+
 }
