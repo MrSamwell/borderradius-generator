@@ -159,7 +159,7 @@ img{
     width: 200px;
     background: linear-gradient(38deg, rgba(131,58,180,1) 10%, rgba(253,29,29,1) 56%, rgba(252,176,69,1) 100%);
     margin: auto;
-    transition: 1s;
+    transition: 0s;
     -webkit-box-shadow: 60px 66px 92px -11px rgba(0,0,0,0.5);
     -moz-box-shadow: 60px 66px 92px -11px rgba(0,0,0,0.5);
     box-shadow: 60px 66px 92px -11px rgba(0,0,0,0.5);
