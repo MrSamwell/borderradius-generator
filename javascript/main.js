@@ -22,7 +22,11 @@ new Vue({
   
         },
         updateCode: function () {
+            if(this.cornertl == this.cornertr && this.cornertr == this.cornerbr && this.cornerbr == this.cornerbl){
+                this.csscode = 'border-radius: ' + this.cornertl + "px;";
+            }else{
             this.csscode = 'border-radius: ' + this.cornertl + "px " + this.cornertr + "px "+ this.cornerbl + "px "+ this.cornerbr + "px;";
+        }
             
             let rectangle = this.$refs.rectangle;
             rectangle.style.borderRadius =  this.cornertl + "px " + this.cornertr + "px "+ this.cornerbl + "px "+ this.cornerbr + "px";
